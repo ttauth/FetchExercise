@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5429DF72AFADB67002936DD /* Fetch_ExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429DF62AFADB67002936DD /* Fetch_ExerciseApp.swift */; };
-		B5429DF92AFADB67002936DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429DF82AFADB67002936DD /* ContentView.swift */; };
 		B5429DFB2AFADB68002936DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5429DFA2AFADB68002936DD /* Assets.xcassets */; };
 		B5429DFE2AFADB68002936DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5429DFD2AFADB68002936DD /* Preview Assets.xcassets */; };
 		B5429E082AFADB69002936DD /* Fetch_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E072AFADB69002936DD /* Fetch_ExerciseTests.swift */; };
 		B5429E122AFADB69002936DD /* Fetch_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E112AFADB69002936DD /* Fetch_ExerciseUITests.swift */; };
 		B5429E142AFADB69002936DD /* Fetch_ExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E132AFADB69002936DD /* Fetch_ExerciseUITestsLaunchTests.swift */; };
+		B5429E262AFADB98002936DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E202AFADB97002936DD /* ContentView.swift */; };
+		B5429E272AFADB98002936DD /* FetchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E212AFADB98002936DD /* FetchApi.swift */; };
+		B5429E282AFADB98002936DD /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E222AFADB98002936DD /* MealDetailView.swift */; };
+		B5429E2A2AFADB98002936DD /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E242AFADB98002936DD /* MealListView.swift */; };
+		B5429E2B2AFADB98002936DD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E252AFADB98002936DD /* Models.swift */; };
+		B5429E2D2AFADC6F002936DD /* FetchExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E2C2AFADC6F002936DD /* FetchExercise.swift */; };
+		B591C1B32B055DBA00855DC4 /* FetchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5429E212AFADB98002936DD /* FetchApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		B5429DF32AFADB67002936DD /* Fetch Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fetch Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5429DF62AFADB67002936DD /* Fetch_ExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ExerciseApp.swift; sourceTree = "<group>"; };
-		B5429DF82AFADB67002936DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5429DFA2AFADB68002936DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5429DFD2AFADB68002936DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5429E032AFADB69002936DD /* Fetch ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,12 @@
 		B5429E0D2AFADB69002936DD /* Fetch ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fetch ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5429E112AFADB69002936DD /* Fetch_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ExerciseUITests.swift; sourceTree = "<group>"; };
 		B5429E132AFADB69002936DD /* Fetch_ExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_ExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5429E202AFADB97002936DD /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Downloads/ContentView.swift; sourceTree = "<group>"; };
+		B5429E212AFADB98002936DD /* FetchApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchApi.swift; path = ../../../Downloads/FetchApi.swift; sourceTree = "<group>"; };
+		B5429E222AFADB98002936DD /* MealDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealDetailView.swift; path = ../../../Downloads/MealDetailView.swift; sourceTree = "<group>"; };
+		B5429E242AFADB98002936DD /* MealListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealListView.swift; path = ../../../Downloads/MealListView.swift; sourceTree = "<group>"; };
+		B5429E252AFADB98002936DD /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = ../../../Downloads/Models.swift; sourceTree = "<group>"; };
+		B5429E2C2AFADC6F002936DD /* FetchExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchExercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +103,14 @@
 		B5429DF52AFADB67002936DD /* Fetch Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				B5429DF62AFADB67002936DD /* Fetch_ExerciseApp.swift */,
-				B5429DF82AFADB67002936DD /* ContentView.swift */,
+				B5429E202AFADB97002936DD /* ContentView.swift */,
+				B5429E212AFADB98002936DD /* FetchApi.swift */,
+				B5429E222AFADB98002936DD /* MealDetailView.swift */,
+				B5429E242AFADB98002936DD /* MealListView.swift */,
+				B5429E252AFADB98002936DD /* Models.swift */,
 				B5429DFA2AFADB68002936DD /* Assets.xcassets */,
 				B5429DFC2AFADB68002936DD /* Preview Content */,
+				B5429E2C2AFADC6F002936DD /* FetchExercise.swift */,
 			);
 			path = "Fetch Exercise";
 			sourceTree = "<group>";
@@ -195,6 +208,7 @@
 				TargetAttributes = {
 					B5429DF22AFADB67002936DD = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 					B5429E022AFADB69002936DD = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -257,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5429DF92AFADB67002936DD /* ContentView.swift in Sources */,
-				B5429DF72AFADB67002936DD /* Fetch_ExerciseApp.swift in Sources */,
+				B5429E282AFADB98002936DD /* MealDetailView.swift in Sources */,
+				B5429E262AFADB98002936DD /* ContentView.swift in Sources */,
+				B5429E2D2AFADC6F002936DD /* FetchExercise.swift in Sources */,
+				B5429E272AFADB98002936DD /* FetchApi.swift in Sources */,
+				B5429E2B2AFADB98002936DD /* Models.swift in Sources */,
+				B5429E2A2AFADB98002936DD /* MealListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B591C1B32B055DBA00855DC4 /* FetchApi.swift in Sources */,
 				B5429E122AFADB69002936DD /* Fetch_ExerciseUITests.swift in Sources */,
 				B5429E142AFADB69002936DD /* Fetch_ExerciseUITestsLaunchTests.swift in Sources */,
 			);
@@ -419,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fetch Exercise/Preview Content\"";
@@ -437,6 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ye.Fetch-Exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fetch Exercise/Preview Content\"";
